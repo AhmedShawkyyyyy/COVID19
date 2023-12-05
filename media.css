@@ -1,0 +1,522 @@
+@media (max-width: 230px) {
+  .home-page header {
+    width: 100%;
+    justify-content: center;
+  }
+  .home-page header nav ul li {
+    display: none;
+  }
+  .home-page header nav ul button {
+    display: none;
+  }
+  .home-page header nav ul .bars {
+    display: block;
+    font-size: 24px;
+  }
+  .home-page header .logo {
+    font-size: 20px;
+    width: auto;
+  }
+  .home-page .content {
+    width: 100%;
+    text-align: center;
+  }
+  .home-page .content .content-img {
+    width: 100%;
+  }
+  .home-page .content .content-details {
+    width: 80%;
+    justify-content: center;
+  }
+  .home-page .content .content-details .row2 {
+    line-height: 1;
+  }
+  .home-page .content .content-details .row1 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-page .content .content-details .row1 .text1 h2 {
+    font-size: 24px;
+  }
+  .home-page .content .content-details .row1 .text2 h4,
+  .home-page .content .content-details .row1 .text2 h3 {
+    font-size: 24px;
+  }
+  .home-page .content .content-details .row3 {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .home-page .content .content-details .row3 .btn1 {
+    padding-bottom: 20px;
+  }
+  .home-page .content .content-details .row4 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  main .content1 .about {
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+  }
+  main .content1 .about .card1 {
+    width: 100%;
+  }
+  main .content1 .about .card1 .title h2 {
+    font-size: 30px;
+  }
+  main .content1 .about .card1 .details {
+    line-height: 1;
+    font-size: 15px;
+  }
+  main .content1 .about .card2 {
+    width: 100%;
+  }
+  main .content2 .title {
+    width: 100%;
+  }
+  main .content2 .title .how h2 {
+    font-size: 25px;
+  }
+  main .content2 .title .cards {
+    flex-wrap: wrap;
+  }
+  main .content2 .title .cards .card {
+    width: 100%;
+  }
+  main .content3 {
+    width: 100%;
+    padding: 0;
+  }
+  main .content3 .row2 .card1,
+  main .content3 .row2 .card2,
+  main .content3 .row2 .card3 {
+    width: 100%;
+  }
+  main .content3 .row2 {
+    width: 100%;
+    display: flex;
+  }
+  main .content3 .row3 .left {
+    width: 100%;
+  }
+  main .content3 .row3 .left {
+    display: flex;
+    margin: 0px 9px;
+    width: 101%;
+    line-height: 1.3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .content4 .row .row2 .card {
+    width: 100%;
+    padding: 5px;
+  }
+  .content4 .row .row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content4 .row .row5 .cards {
+    width: 100%;
+  }
+  .content4 {
+    width: 100%;
+  }
+  .content4 .row {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .content4 .row .row5 .cards .card1 ul h2 {
+    font-size: 22px;
+  }
+  .content4 .row .row5 .cards .card1 {
+    width: 100%;
+    line-height: 1.2;
+  }
+  .content4 .row .row5 .cards .card2 {
+    width: 100%;
+  }
+  .content4 .row .row6 .cards .card {
+    width: 100%;
+  }
+  .content5 {
+    padding: 0;
+  }
+  .content5 .cards {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+  }
+  .content5 .cards .card2 {
+    width: 100%;
+    padding: 0;
+  }
+  .content6 .cards {
+    width: 100%;
+  }
+  .content6 .cards .row2 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .content6 .cards .row2 .card1,
+  .content6 .cards .row2 .card2,
+  .content6 .cards .row2 .card3 {
+    width: 100%;
+  }
+  .content6 .cards .row2 .card1 .row1,
+  .content6 .cards .row2 .card1 .row2,
+  .content6 .cards .row2 .card1 .row3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .content6 .cards .row2 .card3 .row1,
+  .content6 .cards .row2 .card3 .row2,
+  .content6 .cards .row2 .card3 .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .content7 .body {
+    margin: 0px 0px;
+    width: 100%;
+  }
+  .content7 .body .row1 h3 {
+    font-size: 20px;
+  }
+  .content7 .body .row2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content7 .body .row2 .card1 {
+    width: 100%;
+  }
+  .content7 .body .row2 .card2 {
+    width: 100%;
+  }
+  .content7 .body .row2 .card2 ul a li h3 {
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: stretch;
+  }
+  .content8 .body {
+    width: 100%;
+  }
+  .content8 .body .row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content8 .body .row2 .cards {
+    width: 100%;
+    background-color: white;
+    padding: 0px;
+  }
+  footer .body {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer .body .card1 {
+    width: 100%;
+    text-align: center;
+  }
+  footer .body .card {
+    width: 100%;
+    margin-top: 25px;
+    padding: 0px 0px15px;
+    text-align: center;
+  }
+}
+/* ========tablets=========== */
+@media (min-width: 230px) and (max-width: 530px) {
+  .home-page header {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .home-page header nav ul li {
+    display: none;
+  }
+  .home-page header nav ul button {
+    display: none;
+  }
+  .home-page header nav ul .bars {
+    display: block;
+    font-size: 24px;
+  }
+  .home-page header .logo {
+    font-size: 20px;
+    width: auto;
+  }
+  .home-page .content {
+    width: 100%;
+    text-align: center;
+  }
+  .home-page .content .content-img {
+    width: 100%;
+  }
+  .home-page .content .content-details {
+    width: 80%;
+    justify-content: center;
+  }
+  .home-page .content .content-details .row2 {
+    line-height: 1;
+  }
+  .home-page .content .content-details .row1 {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-page .content .content-details .row3 {
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+  }
+  .home-page .content .content-details .row3 .btn1 {
+    padding-bottom: 20px;
+  }
+  .home-page .content .content-details .row4 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  main .content1 .about {
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+  }
+  main .content1 .about .card1 {
+    width: 100%;
+  }
+  main .content1 .about .card1 .title h2 {
+    font-size: 30px;
+  }
+  main .content1 .about .card1 .details {
+    line-height: 1;
+    font-size: 15px;
+  }
+  main .content1 .about .card2 {
+    width: 100%;
+  }
+  main .content2 .title {
+    width: 100%;
+  }
+  main .content2 .title .how h2 {
+    font-size: 25px;
+  }
+  main .content2 .title .cards {
+    flex-wrap: wrap;
+  }
+  main .content2 .title .cards .card {
+    width: 65%;
+  }
+  main .content3 {
+    width: 100%;
+    padding: 0;
+  }
+  main .content3 .row2 .card1,
+  main .content3 .row2 .card2,
+  main .content3 .row2 .card3 {
+    width: 100%;
+  }
+  main .content3 .row2 {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .content3 .row3 .left {
+    width: 100%;
+    padding: 5px;
+  }
+  main .content3 .row3 .left {
+    display: flex;
+    margin: 0px 9px;
+    width: 101%;
+    line-height: 1.3;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .content4 .row .row2 .card {
+    width: 100%;
+    padding: 5px;
+  }
+  .content4 .row .row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content4 .row .row5 .cards {
+    width: 100%;
+  }
+  .content4 {
+    width: 100%;
+  }
+  .content4 .row {
+    width: 77%;
+    margin: auto;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .content4 .row .row5 .cards .card1 ul h2 {
+    font-size: 22px;
+  }
+  .content4 .row .row5 .cards .card1 {
+    width: 100%;
+    line-height: 1.2;
+  }
+  .content4 .row .row5 .cards .card2 {
+    width: 100%;
+  }
+  .content4 .row .row6 .cards .card {
+    width: 100%;
+  }
+  .content5 {
+    padding: 0;
+  }
+  .content5 .cards {
+    width: 100%;
+    /* margin: auto; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+  }
+  .content5 .cards .card2 {
+    width: 100%;
+  }
+  .content6 .cards {
+    width: 78%;
+  }
+  .content6 .cards .row2 {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .content6 .cards .row2 .card1,
+  .content6 .cards .row2 .card2,
+  .content6 .cards .row2 .card3 {
+    width: 100%;
+  }
+  .content6 .cards .row2 .card1 .row1,
+  .content6 .cards .row2 .card1 .row2,
+  .content6 .cards .row2 .card1 .row3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .content6 .cards .row2 .card3 .row1,
+  .content6 .cards .row2 .card3 .row2,
+  .content6 .cards .row2 .card3 .row3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 30px;
+    flex-direction: column-reverse;
+    align-content: center;
+  }
+  .content7 .body {
+    margin: 0px 0px;
+    width: 100%;
+  }
+  .content7 .body .row1 h3 {
+    font-size: 20px;
+  }
+  .content7 .body .row2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content7 .body .row2 .card1 {
+    width: 100%;
+  }
+  .content7 .body .row2 .card2 {
+    width: 95%;
+  }
+  .content7 .body .row2 .card2 ul a li h3 {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+  }
+  .content8 .body {
+    width: 090%;
+  }
+  .content8 .body .row2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .content8 .body .row2 .cards {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer .body {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  footer .body .card1 {
+    width: 100%;
+    text-align: center;
+  }
+  footer .body .card {
+    width: 100%;
+    margin-top: 25px;
+    padding: 0px 0px15px;
+    text-align: center;
+  }
+}
+
+/* ================================ */
+@media (min-width: 531px) and (max-width: 900px) {
+  .home-page header {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-page .content {
+    width: 100%;
+  }
+  main .content1 .about {
+    width: 95%;
+  }
+  main .content3 .row3 {
+    width: 100%;
+    display: flex;
+  }
+}

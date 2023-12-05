@@ -1,0 +1,1110 @@
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: content-box;
+}
+/* ==============home-page============================ */
+.home-page {
+  width: 100%;
+  background-image: url(./Pictures/home-page.jpg);
+  background-size: cover;
+  background-color: rgb(247, 249, 254);
+}
+
+/* /header=============================================== */
+.home-page header {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 5px;
+}
+.home-page header .logo {
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.home-page header .logo span {
+  color: #50658e;
+}
+
+.home-page header nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.home-page header nav ul li {
+  margin-right: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.home-page header nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #50658e;
+}
+.home-page header nav ul .bars {
+  display: none;
+}
+
+.home-page header nav ul button {
+  background-color: rgb(0, 123, 255);
+  border: 0px;
+  border-radius: 100px;
+  padding: 15px 20px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home-page header nav ul button:hover {
+  background-color: #0056b3;
+}
+
+/* content================================== */
+
+.home-page .content {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.home-page .content .content-details {
+  width: 48%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  margin-bottom: 5px;
+  padding: 0px 15px;
+}
+
+.home-page .content .content-details .row1 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  font-family: "Oswald", sans-serif;
+  color: rgb(80, 101, 142);
+}
+
+.home-page .content .content-details .row1 .text1 h2 {
+  font-size: 65px;
+  font-weight: 800;
+}
+/* .home-page .content .content-details .row1 .text2 {
+  display: flex;
+} */
+.home-page .content .content-details .row1 .text2 h4 {
+  color: red;
+  font-size: 30px;
+  margin-top: 81px;
+  padding-bottom: 4px;
+  margin-bottom: 0;
+}
+.home-page .content .content-details .row1 .text2 h3 {
+  font-size: 43px;
+  padding-top: 4px;
+  margin-top: 0;
+}
+
+.home-page .content .content-details .row2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0, 0, 0, 0.705);
+  font-weight: lighter;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.home-page .content .content-details .row3 {
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.home-page .content .content-details .row3 .btn1 button {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 100px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.home-page .content .content-details .row3 .btn1 button:hover {
+  background-color: #0056b3;
+}
+
+.home-page .content .content-details .row3 .btn2 a {
+  text-decoration: none;
+  color: rgb(0, 123, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+.home-page .content .content-details .row3 .btn2 a:hover {
+  text-decoration: underline;
+}
+.home-page .content .content-details .row4 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.home-page .content .content-details .row4 h6 {
+  font-size: 16px;
+  color: rgb(125, 146, 187);
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.home-page .content .content-details .row4 h4 {
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80, 101, 142);
+}
+
+.home-page .content .content-details .row5 {
+  font-size: 18px;
+  font-weight: 200;
+  color: rgb(125, 146, 187);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* img============================================ */
+.home-page .content .content-img {
+  width: 48%;
+}
+
+.home-page .content .content-img img {
+  width: 100%;
+}
+/* =================main======================= */
+/* content1===================================== */
+main .content1 {
+  width: 100%;
+}
+main .content1 .about {
+  width: 65%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: rgb(80, 101, 142);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .content1 .about .card1 {
+  width: 60%;
+}
+main .content1 .about .card1 .title h3 {
+  color: rgb(63, 111, 253);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: rgb(63, 111, 253);
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+main .content1 .about .card1 .title h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+main .content1 .about .card1 .details {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+main .content1 .about .card1 p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+main .content1 .about .card2 {
+  width: 33%;
+  text-align: center;
+}
+
+main .content1 .about .card2 .title {
+  font-size: 22px;
+  font-weight: bold;
+  border: 1px solid rgba(77, 77, 77, 0.2);
+  padding: 20px 18px;
+}
+main .content1 .about .card2 ul {
+  list-style-type: none;
+  text-align: left;
+  /* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); */
+}
+main .content1 .about .card2 ul a {
+  text-decoration: none;
+  color: rgb(0, 123, 255);
+}
+main .content1 .about .card2 ul a li {
+  border: 1px solid rgba(77, 77, 77, 0.2);
+  padding: 20px 5px;
+}
+main .content1 .about .card2 ul a li i {
+  float: right;
+}
+/* ======(content2)======================================= */
+main .content2 {
+  width: 100%;
+  background-color: rgb(247, 249, 254);
+}
+main .content2 .title {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  color: rgb(80, 101, 142);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+main .content2 .title .how h5 {
+  color: rgb(0, 123, 255);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+main .content2 .title .how h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+main .content2 .title .how p {
+  margin-bottom: 15px;
+}
+main .content2 .title .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+}
+main .content2 .title .cards .card {
+  width: calc(90% / 3);
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(31, 31, 31, 0.2);
+}
+main .content2 .title .cards .card img {
+  width: 100%;
+  background-color: rgb(247, 249, 254);
+  border-bottom: 5px solid rgb(110, 159, 255);
+}
+
+main .content2 .title .cards .card h5 {
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+main .content2 .title .cards .card p {
+  padding: 0px 5px;
+}
+main .content2 .title .have {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+main .content2 .title .have button {
+  background-color: rgb(0, 123, 255);
+  color: white;
+  padding: 20px 15px;
+  border: 0;
+  border-radius: 100px;
+  font-size: 19px;
+}
+main .content2 .title .have button:hover {
+  background-color: #0056b3;
+}
+main .content2 .title .have button i {
+  margin-right: 30px;
+}
+/* =========(content3)=================== */
+main .content3 {
+  width: 70%;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px;
+  color: rgb(80, 101, 142);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main .content3 .row1 {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+}
+main .content3 .row1 h5 {
+  color: rgb(118, 145, 249);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+main .content3 .row1 h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+main .content3 .row1 p {
+  margin-bottom: 20px;
+}
+
+main .content3 .row2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+main .content3 .row2 .card1,
+main .content3 .row2 .card2,
+main .content3 .row2 .card3 {
+  width: calc(90% / 3);
+  padding: 50px;
+  box-shadow: 0px 1px 2px rgba(20, 20, 20, 0.2);
+  box-sizing: content-box;
+}
+
+main .content3 .row2 .card1 .image,
+main .content3 .row2 .card2 .image,
+main .content3 .row2 .card3 .image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-bottom: -30px;
+}
+
+main .content3 .row2 .card1 .image img,
+main .content3 .row2 .card2 .image img,
+main .content3 .row2 .card3 .image img {
+  width: 90px;
+  height: 90px;
+  float: right;
+  border-radius: 50%;
+}
+
+main .content3 .row2 .card1 h5,
+main .content3 .row2 .card2 h5,
+main .content3 .row2 .card3 h5 {
+  width: 100%;
+  color: #7691f9;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main .content3 .row2 .card1 p span,
+main .content3 .row2 .card2 p span,
+main .content3 .row2 .card3 p span {
+  font-weight: bold;
+}
+
+main .content3 .row3 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .content3 .row3 .left {
+  display: flex;
+  margin: 0px 5px;
+  width: 50%;
+  line-height: 1.3;
+}
+
+main .content3 .row3 .left i {
+  font-size: 80px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+main .content3 .row3 .left p span {
+  color: rgb(0, 123, 255);
+  font-weight: bold;
+}
+
+main .content3 .row3 .right {
+  padding: 15px;
+}
+main .content3 .row3 .right button {
+  color: white;
+  font-size: 19px;
+  background-color: rgb(0, 123, 255);
+  border-radius: 100px;
+  padding: 20px 15px;
+  border: 0;
+  cursor: pointer;
+}
+
+main .content3 .row3 .right button i {
+  margin-right: 30px;
+}
+main .content3 .row3 .right button:hover {
+  background-color: #0056b3;
+}
+/* =========(content4)=========================== */
+.content4 {
+  width: 100%;
+  background-color: rgb(247, 249, 254);
+}
+
+.content4 .row {
+  width: 95%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(80, 101, 142);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ==================row1=============== */
+.content4 .row .row1 {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.content4 .row .row1 h5 {
+  color: rgb(118, 145, 249);
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.content4 .row .row1 h3 {
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+/* ==================row2=============== */
+.content4 .row .row2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.content4 .row .row2 .card {
+  width: calc(95% / 4);
+  padding: 5px;
+}
+
+.content4 .row .row2 img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: -20px;
+}
+.content4 .row .row2 h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+/* ==================row3=============== */
+.content4 .row .row3 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.content4 .row .row3 button {
+  color: white;
+  font-size: 19px;
+  background-color: rgb(0, 123, 255);
+  border-radius: 100px;
+  padding: 20px 15px;
+  border: 0;
+  cursor: pointer;
+  font-size: 19px;
+}
+.content4 .row .row3 button:hover {
+  background-color: #0056b3;
+}
+.content4 .row .row3 button i {
+  margin-left: 45px;
+}
+/* ==================row4=============== */
+.content4 .row .row4 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.content4 .row .row4 a {
+  text-decoration: none;
+  /* font-size: 13px; */
+  color: rgb(0, 123, 255);
+  width: 100%;
+  font-weight: bold;
+}
+
+.content4 .row .row4 a:hover {
+  color: rgb(0, 86, 179);
+}
+/* ==================row5=============== */
+.content4 .row .row5 {
+  width: 100%;
+}
+.content4 .row .row5 .cards {
+  margin: 0 auto;
+  width: 75%;
+  background-color: 255, 255, 255;
+  /* padding: 10px; */
+  border-radius: 20px;
+  box-shadow: 0px 3px 10px rgb(0 0 0 / 20%);
+  /* text-align: center; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin-bottom: 100px;
+}
+
+.content4 .row .row5 .cards .card1 {
+  width: 60%;
+  line-height: 1.6;
+}
+.content4 .row .row5 .cards .card1 ul {
+  list-style-type: none;
+}
+.content4 .row .row5 .cards .card1 ul h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.content4 .row .row5 .cards .card1 ul li {
+  margin: 10px;
+}
+.content4 .row .row5 .cards .card1 ul li i {
+  color: rgb(82, 201, 139);
+}
+.content4 .row .row5 .cards .card1 ul li span {
+  font-weight: bold;
+}
+.content4 .row .row5 .cards .card1 ul li a {
+  color: rgb(0, 123, 255);
+}
+
+.content4 .row .row5 .cards .card2 {
+  width: 35%;
+}
+.content4 .row .row5 .cards .card2 img {
+  width: 100%;
+}
+/* ==================row6=============== */
+.content4 .row .row6 {
+  width: 100%;
+  margin: 5px auto;
+  text-align: center;
+}
+.content4 .row .row6 .title {
+  margin-bottom: 30px;
+}
+.content4 .row .row6 .title h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+.content4 .row .row6 .title a {
+  width: 100%;
+  text-decoration: none;
+  color: rgb(0, 123, 255);
+  font-weight: bold;
+}
+.content4 .row .row6 .title a {
+  font-weight: 600;
+}
+.content4 .row .row6 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+  text-align: center;
+}
+
+.content4 .row .row6 .cards .card {
+  width: calc(95% / 6);
+}
+
+.content4 .row .row6 .cards .card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.content4 .row .row6 .cards .card h6 {
+  font-weight: bold;
+  font-size: 16px;
+}
+/* ======================content5===================== */
+
+.content5 {
+  width: 100%;
+  background-image: url(./Pictures/content5-card2.jpg);
+  background-size: cover;
+  background-color: rgb(39, 102, 187);
+  padding: 85px 0px;
+  box-sizing: content-box;
+}
+.content5 .cards {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content5 .cards .card1 {
+  width: 50%;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content5 .cards .card1 .title h4 {
+  color: rgb(115, 227, 255);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.content5 .cards .card1 .title h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.content5 .cards .card1 p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.content5 .cards .card1 p span {
+  font-weight: bold;
+}
+
+.content5 .cards .card2 {
+  width: 35%;
+  background-color: rgb(27, 71, 161);
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20px;
+  color: white;
+  padding: 20px;
+  line-height: 1.5;
+  text-align: left;
+}
+.content5 .cards .card2 ul {
+  list-style-type: none;
+}
+.content5 .cards .card2 ul h6 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.content5 .cards .card2 ul li i {
+  margin-right: 20px;
+}
+/* ==========content6========================= */
+.content6 {
+  width: 100%;
+  background-color: rgb(247, 249, 254);
+}
+.content6 .cards {
+  width: 80%;
+  margin: 0px auto;
+}
+.content6 .cards .row1 {
+  padding-top: 100px;
+  text-align: center;
+  color: #50658e;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.content6 .cards .row1 h4 {
+  font-size: 19px;
+  color: rgb(42, 129, 234);
+  margin-bottom: 10px;
+}
+.content6 .cards .row1 h2 {
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 20px;
+}
+.content6 .cards .row1 p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.content6 .cards .row2 {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+/* ====card1=== */
+.content6 .cards .row2 .card1 {
+  width: 25%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content6 .cards .row2 .card1 .row1,
+.content6 .cards .row2 .card1 .row2,
+.content6 .cards .row2 .card1 .row3 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 30px;
+  align-items: flex-start;
+}
+
+.content6 .cards .row2 .card1 .row1 p,
+.content6 .cards .row2 .card1 .row2 p,
+.content6 .cards .row2 .card1 .row3 p {
+  width: 70%;
+  padding: 10px 0px 0px 10px;
+  color: rgb(42, 129, 234);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content6 .cards .row2 .card1 .row1 img,
+.content6 .cards .row2 .card1 .row2 img,
+.content6 .cards .row2 .card1 .row3 img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+.content6 .cards .row2 .card1 .row1 i,
+.content6 .cards .row2 .card1 .row2 i,
+.content6 .cards .row2 .card1 .row3 i {
+  color: red;
+  font-weight: bold;
+}
+/* ====card2=== */
+.content6 .cards .row2 .card2 {
+  width: 50%;
+}
+.content6 .cards .row2 .card2 img {
+  width: 100%;
+}
+/* ====card3=== */
+.content6 .cards .row2 .card3 {
+  width: 25%;
+  padding-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content6 .cards .row2 .card3 .row1,
+.content6 .cards .row2 .card3 .row2,
+.content6 .cards .row2 .card3 .row3 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.content6 .cards .row2 .card3 .row1 p,
+.content6 .cards .row2 .card3 .row2 p,
+.content6 .cards .row2 .card3 .row3 p {
+  width: 70%;
+  padding: 10px 0px 0px 10px;
+  color: rgb(42, 129, 234);
+  font-size: 14px;
+  font-weight: bold;
+}
+.content6 .cards .row2 .card3 .row1 img,
+.content6 .cards .row2 .card3 .row2 img,
+.content6 .cards .row2 .card3 .row3 img {
+  width: 80px;
+  height: 80px;
+  border: 2px solid blue;
+  border-radius: 50%;
+}
+
+.content6 .cards .row2 .card3 .row1 i,
+.content6 .cards .row2 .card3 .row2 i,
+.content6 .cards .row2 .card3 .row3 i {
+  color: rgb(144, 238, 144);
+  font-weight: bold;
+}
+/* ===============content7=================== */
+.content7 {
+  width: 100%;
+}
+
+.content7 .body {
+  margin: 0px auto;
+  width: 80%;
+  text-align: center;
+  color: #50658e;
+}
+.content7 .body .row1 {
+  padding-top: 60px;
+  text-align: center;
+  color: #50658e;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 40px;
+}
+
+.content7 .body .row1 h5 {
+  color: rgb(0, 123, 255);
+  font-size: 20px;
+  /* margin-bottom: 10px; */
+}
+.content7 .body .row1 h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+}
+
+/* ===card2=== */
+.content7 .body .row2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-bottom: 100px;
+}
+
+.content7 .body .row2 .card1 {
+  width: 30%;
+}
+
+.content7 .body .row2 .card1 ul {
+  list-style-type: none;
+}
+
+.content7 .body .row2 .card1 ul a {
+  color: rgb(80, 101, 142);
+  text-decoration: none;
+}
+
+.content7 .body .row2 .card1 ul a li {
+  padding: 20px;
+  border: 2px solid rgb(231, 232, 255);
+  border-radius: 8px;
+  margin: 10px 0px;
+  transition: 0.5s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content7 .body .row2 .card1 ul a li:hover {
+  color: #2482ff;
+  border-color: #007bff;
+}
+
+.content7 .body .row2 .card2 {
+  width: 68%;
+  border: 2px solid rgb(231, 232, 255);
+  border-radius: 8px;
+  background-color: #f7fafe;
+}
+.content7 .body .row2 .card2 .body {
+  border: 2px solid rgb(231, 232, 255);
+}
+.content7 .body .row2 .card2 ul {
+  list-style-type: none;
+}
+
+.content7 .body .row2 .card2 ul a {
+  text-decoration: none;
+  color: rgb(70, 86, 117);
+  transition: 0.5s;
+}
+.content7 .body .row2 .card2 ul a:hover {
+  color: #2a8ded;
+}
+.content7 .body .row2 .card2 ul a li {
+  border-bottom: 2px solid rgb(231, 232, 255);
+}
+
+.content7 .body .row2 .card2 ul a li h3 {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+}
+.content7 .body .row2 .card2 ul a li h3 i {
+  padding-right: 15px;
+}
+/* =======content8========================== */
+
+.content8 {
+  width: 100%;
+  background-color: rgb(247, 249, 254);
+  color: rgb(80, 101, 142);
+  margin-bottom: -20px;
+}
+
+.content8 .body {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 0 0 100px 0;
+}
+
+.content8 .body .row1 {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+}
+.content8 .body .row1 h5 {
+  font-size: 20px;
+  color: rgb(0, 123, 255);
+  margin-bottom: 15px;
+}
+
+.content8 .body .row1 h3 {
+  font-size: 39px;
+  font-weight: bold;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+
+.content8 .body .row2 {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.content8 .body .row2 .cards {
+  width: calc(90% / 3);
+  background-color: white;
+  padding: 20px 5px;
+  text-align: center;
+}
+.content8 .body .row2 .cards .img img {
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.content8 .body .row2 .cards h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.content8 .body .row2 .cards p {
+  color: rgb(61, 75, 105);
+  line-height: 1.5;
+}
+/* ====================footer============= */
+footer {
+  width: 100%;
+  background-image: url(./Pictures/footer.jpg);
+  background-size: cover;
+  background-color: rgb(21, 28, 46);
+  padding: 80px 0px;
+  margin: 0px auto;
+}
+
+footer .body {
+  width: 80%;
+  margin: 0px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(178, 191, 224);
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .body .card1 {
+  width: 35%;
+}
+footer .body .card1 h2 {
+  font-size: 35px;
+  color: white;
+  margin-bottom: 20px;
+}
+footer .body .card1 h2 i {
+  color: rgb(220, 53, 69);
+  margin: 0px 10px;
+}
+footer .body .card1 h2 span {
+  color: rgb(75, 102, 144);
+}
+footer .body .card1 p {
+  line-height: 1.2;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+footer .body .card1 .icons a i {
+  color: rgb(178, 191, 224);
+  font-size: 30px;
+  margin-right: 10px;
+  color: rgb(178, 191, 224);
+}
+
+footer .body .card {
+  width: calc(65% / 3);
+  margin-top: 25px;
+  padding: 0px 15px;
+}
+
+footer .body .card h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+footer .body .card a {
+  text-decoration: none;
+  color: rgb(178, 191, 224);
+  font-size: 13px;
+  line-height: 34px;
+  transition: 0.5s;
+}
+footer .body .card a:hover {
+  color: white;
+}
+
+footer .hr {
+  width: 80%;
+  margin-top: 50px;
+  text-align: center;
+}
+footer .row2 {
+  width: 80%;
+  margin: 35px auto;
+}
+
+footer .row2 p {
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(178, 191, 224);
+}
+
+footer .row2 p span {
+  color: white;
+  font-weight: bold;
+}
