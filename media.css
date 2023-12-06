@@ -505,7 +505,7 @@
 }
 
 /* ================================ */
-@media (min-width: 531px) and (max-width: 900px) {
+@media (min-width: 531px) and (max-width: 1050px) {
   .home-page header {
     width: 100%;
     margin: auto;
