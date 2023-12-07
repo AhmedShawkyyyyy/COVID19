@@ -302,6 +302,9 @@
     justify-content: center;
     align-items: center;
   }
+  .home-page .content .content-details .row1 .text1 h2 {
+    font-size: 35px;
+  }
 
   .home-page .content .content-details .row3 {
     flex-wrap: wrap;
@@ -556,6 +559,9 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+  }
+  .home-page .content .content-details .row1 .text1 h2 {
+    font-size: 45px;
   }
   .home-page .content .content-details .row2 {
     width: 100%;
