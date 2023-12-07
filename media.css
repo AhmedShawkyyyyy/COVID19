@@ -166,6 +166,9 @@
     align-items: flex-end;
     text-align: center;
   }
+  .content5 .cards .card1 .title h2 {
+    font-size: 25px;
+  }
   .content5 .cards .card2 {
     width: 100%;
     padding: 0;
@@ -425,6 +428,9 @@
     align-items: flex-end;
     text-align: center;
   }
+  .content5 .cards .card1 .title h2 {
+    font-size: 30px;
+  }
   .content5 .cards .card2 {
     width: 100%;
   }
@@ -646,6 +652,9 @@
     justify-content: space-around;
     flex-wrap: wrap;
   }
+  .content5 .cards .card1 .title h2 {
+    font-size: 35px;
+  }
   .content6 .cards {
     width: 85%;
   }
@@ -688,5 +697,11 @@
     margin-top: 25px;
     padding: 0px 0px15px;
     text-align: center;
+  }
+}
+/* ===================== */
+@media (min-width: 1051px) {
+  .home-page header {
+    width: 95%;
   }
 }
