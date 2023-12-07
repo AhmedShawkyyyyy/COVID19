@@ -36,6 +36,7 @@ body {
 .home-page header nav ul {
   list-style-type: none;
   display: flex;
+  align-items: center;
 }
 
 .home-page header nav ul li {
@@ -923,6 +924,7 @@ main .content3 .row3 .right button:hover {
   border: 2px solid rgb(231, 232, 255);
   border-radius: 8px;
   background-color: #f7fafe;
+  margin-top: 17px;
 }
 .content7 .body .row2 .card2 .body {
   border: 2px solid rgb(231, 232, 255);
